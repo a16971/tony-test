@@ -5,6 +5,7 @@
 #define MAXBUF 50000
 
 CString g_strURL = "http://";
+CString g_strAddress = "My address";
 
 UINT ClientUrlThreadProc(LPVOID pParam)
 {
