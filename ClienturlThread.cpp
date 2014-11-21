@@ -11,6 +11,7 @@ UINT ClientUrlThreadProc(LPVOID pParam)
 {
 	char* buffer = new char[MAXBUF];
 	UINT nBytesRead = 0;
+	char* newbuffer = null;
 
 	CInternetSession session; // can't get status callbacks for OpenURL
 	CStdioFile* pFile1 = NULL; // could call ReadString to get 1 line
